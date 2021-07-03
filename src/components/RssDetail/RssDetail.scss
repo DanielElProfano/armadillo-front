@@ -1,0 +1,23 @@
+@import '../../../public/assests/styles/buttons/b-buttons.scss';
+@import '../../../public/assests/styles/colors/b-colors.scss';
+
+.b-modal{
+
+    &__header{
+        background-color: $form-title-background;
+        color: $form-title-text;
+    }
+    &__footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    &__link{
+        text-decoration: none;
+        font-weight: 600;
+        color: $link-color;
+        transition: all 300 ease;
+        &:hover{
+            color: $link-color-hover;
+        }
+    }
+}

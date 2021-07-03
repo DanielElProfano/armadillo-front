@@ -1,0 +1,38 @@
+@import '../../../../public/assests/styles/buttons/b-buttons.scss';
+@import '../../../../public/assests/styles/colors/b-colors.scss';
+
+.b-form{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px black;
+        padding: 1rem;
+
+    &__footer{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__label{
+        color: rebeccapurple;
+        font-weight: 500;
+    }
+
+    &__title{
+        background-color: $form-title-background;
+        color: $form-title-text;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+    }
+    &__input{
+        width: 100%;
+        text-align: center;
+        
+    }
+}

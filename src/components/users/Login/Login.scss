@@ -1,0 +1,15 @@
+@import '../../../../public/assests/styles/buttons/b-buttons.scss';
+@import '../../../../public/assests/styles/colors/b-colors.scss';
+@import '../Register/Register.scss';
+
+.b-form{
+    &__link{
+        text-decoration: none;
+        color: $link-color;
+        transition: all 300ms ease-in-out;
+        text-align: center;
+        &:hover{
+            color: $link-color-hover;
+        }
+    }
+}

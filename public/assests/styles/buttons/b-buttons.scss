@@ -1,0 +1,19 @@
+@import '../colors/b-colors.scss';
+
+.b-button{
+    
+    &__cancel{
+         background-color: $button-cancel;
+         transition: all 300ms ease-in-out;
+         &:hover{
+             background-color: $button-cancel-hover;
+         }
+        }
+    &__success{
+        background-color: $button-succes;
+        transition: all 300ms ease-in-out;
+         &:hover{
+             background-color: $button-succes-hover;
+         }
+    }
+}
